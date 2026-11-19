@@ -28,6 +28,7 @@ import argparse
 import html
 import json
 import os
+import re
 import shutil
 import sys
 import urllib.request
@@ -57,6 +58,30 @@ def categorize(title: str, fallback: str = "기타") -> str:
         if any(k in title for k in keywords):
             return category
     return fallback
+
+
+def format_toss_memo(og_desc: str | None, title: str) -> str | None:
+    """og:description에서 상품명을 떼고 '손만두 1위 · 리뷰 5,859 · 평점 4.4' 형태의 짧은 근거 문구를 만든다."""
+    if not og_desc:
+        return None
+    text = og_desc.strip()
+    if title and text.startswith(title):
+        text = text[len(title):]
+
+    parts: list[str] = []
+    rank = re.search(r"([가-힣A-Za-z0-9·]+(?:\s[가-힣A-Za-z0-9·]+)?)\s*([123]위)", text)
+    if rank:
+        parts.append(f"{rank.group(1)} {rank.group(2)}")
+    reviews = re.search(r"리뷰\s*([\d,]+)\s*개", text)
+    if reviews:
+        parts.append(f"리뷰 {reviews.group(1)}")
+    rating = re.search(r"평점\s*([\d.]+)\s*점", text)
+    if rating:
+        parts.append(f"평점 {rating.group(1)}")
+    delivery = re.search(r"(내일 도착 예정|모레 도착 예정|오늘 도착)", text)
+    if delivery:
+        parts.append(delivery.group(1))
+    return " · ".join(parts) if parts else None
 
 
 def won(value: int | None) -> str:
@@ -133,7 +158,7 @@ def load_toss(toss_path: Path) -> tuple[list[dict], datetime | None]:
                 "category": categorize(row["title"]),
                 "rank": rank,
                 "updated_at": updated.isoformat(),
-                "memo": (row.get("discount") or "").strip() or None,
+                "memo": format_toss_memo(row.get("og_desc"), row.get("title") or ""),
             }
         )
     return items, updated

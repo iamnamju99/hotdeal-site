@@ -221,7 +221,9 @@
       card.hidden = !visible;
       if (visible) shown++;
     });
-    title.textContent = (state.category === '전체' ? labels[state.platform] : state.category + ' · ' + labels[state.platform]);
+    title.textContent = state.platform === 'all'
+      ? (state.category === '전체' ? '전체 상품' : state.category + ' 상품')
+      : (state.category === '전체' ? labels[state.platform] : state.category + ' · ' + labels[state.platform]);
     count.textContent = shown + '개 표시 / 전체 ' + total + '개';
     empty.classList.toggle('is-visible', shown === 0);
     segButtons.forEach(function (b) {

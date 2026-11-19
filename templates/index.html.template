@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{SITE_NAME}} · 오늘의 실시간 핫딜</title>
+<meta name="description" content="{{SITE_DESC}}">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="{{SITE_URL}}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{SITE_NAME}}">
+<meta property="og:title" content="{{SITE_NAME}} · 오늘의 실시간 핫딜">
+<meta property="og:description" content="{{SITE_DESC}}">
+<meta property="og:url" content="{{SITE_URL}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2316181d'/%3E%3Cpath d='M20 40V24h4v6h8v-6h4v16h-4v-6h-8v6z' fill='%23fff'/%3E%3Ccircle cx='45' cy='27' r='4' fill='%230064ff'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --ink:#16181d; --body:#3d434d; --muted:#7a828e; --line:#e9ebf0; --soft:#f6f7f9;
+    --toss:#0064ff; --coupang:#e5352b; --accent:#16181d;
+    --radius:16px; --shadow:0 2px 10px rgba(22,24,29,.06); --shadow-hover:0 10px 28px rgba(22,24,29,.12);
+    --max:1180px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:#fff; color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Pretendard Variable","Malgun Gothic","Segoe UI",Roboto,sans-serif;
+    line-height:1.5; letter-spacing:-.01em; -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit; text-decoration:none}
+  img{display:block; max-width:100%}
+  button{font:inherit; color:inherit}
+  .wrap{max-width:var(--max); margin:0 auto; padding:0 20px}
+
+  /* ── header ── */
+  .topbar{border-bottom:1px solid var(--line); background:rgba(255,255,255,.92)}
+  .topbar .wrap{display:flex; align-items:center; justify-content:space-between; gap:12px; height:64px}
+  .brand{display:flex; align-items:center; gap:10px; font-weight:800; font-size:19px; letter-spacing:-.03em}
+  .brand-mark{width:28px; height:28px; border-radius:9px; background:var(--ink); color:#fff; display:grid; place-items:center; font-size:14px; font-weight:800}
+  .brand-mark::after{content:""; width:6px; height:6px; border-radius:50%; background:var(--toss); position:relative; top:-6px; left:5px}
+  .live{display:inline-flex; align-items:center; gap:6px; font-size:12.5px; color:var(--muted); white-space:nowrap}
+  .live .dot{width:7px; height:7px; border-radius:50%; background:#12b76a; box-shadow:0 0 0 3px rgba(18,183,106,.16)}
+
+  /* ── hero ── */
+  .hero{padding:34px 0 22px}
+  .hero h1{margin:0 0 10px; font-size:30px; line-height:1.28; letter-spacing:-.035em; font-weight:800}
+  .hero h1 em{font-style:normal; box-shadow:inset 0 -10px 0 #e8efff}
+  .hero p{margin:0; color:var(--body); font-size:14.5px}
+  .hero-stats{display:flex; flex-wrap:wrap; gap:8px; margin-top:16px}
+  .stat{font-size:12.5px; color:var(--body); background:var(--soft); border:1px solid var(--line); border-radius:999px; padding:5px 11px}
+  .stat b{font-weight:700; color:var(--ink)}
+
+  /* ── filters ── */
+  .filters{position:sticky; top:0; z-index:20; background:rgba(255,255,255,.96); backdrop-filter:saturate(150%) blur(8px); border-bottom:1px solid var(--line); padding:12px 0 14px}
+  .filter-row{display:flex; align-items:center; gap:10px; overflow-x:auto; scrollbar-width:none; padding-bottom:2px}
+  .filter-row::-webkit-scrollbar{display:none}
+  .filters .wrap{display:grid; gap:10px}
+  .segment{display:inline-flex; padding:4px; background:var(--soft); border:1px solid var(--line); border-radius:999px; gap:2px; flex:0 0 auto}
+  .segment button{border:0; background:transparent; border-radius:999px; padding:7px 15px; font-size:13.5px; font-weight:600; color:var(--muted); cursor:pointer; white-space:nowrap; transition:.15s}
+  .segment button.is-active{background:#fff; color:var(--ink); box-shadow:0 1px 4px rgba(22,24,29,.12)}
+  .chips{display:flex; gap:8px}
+  .chip{flex:0 0 auto; border:1px solid var(--line); background:#fff; border-radius:999px; padding:7px 14px; font-size:13px; font-weight:600; color:var(--body); cursor:pointer; transition:.15s; white-space:nowrap}
+  .chip:hover{border-color:#cfd4dd}
+  .chip.is-active{background:var(--ink); border-color:var(--ink); color:#fff}
+
+  /* ── grid ── */
+  .results{padding:22px 0 8px}
+  .results-head{display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin-bottom:14px}
+  .results-head h2{margin:0; font-size:15px; font-weight:700}
+  .results-head span{font-size:12.5px; color:var(--muted)}
+  .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(232px,1fr)); gap:16px; list-style:none; padding:0; margin:0}
+
+  .card{border:1px solid var(--line); border-radius:var(--radius); background:#fff; overflow:hidden; display:flex; flex-direction:column; transition:box-shadow .18s, transform .18s, border-color .18s}
+  .card:hover{box-shadow:var(--shadow-hover); transform:translateY(-2px); border-color:#dfe3ea}
+  .card[hidden]{display:none}
+  .card-media{position:relative; display:block; aspect-ratio:1/1; background:var(--soft); overflow:hidden}
+  .card-media img{width:100%; height:100%; object-fit:cover; transition:transform .35s}
+  .card:hover .card-media img{transform:scale(1.03)}
+  .thumb-fallback{width:100%; height:100%; display:grid; place-items:center; background:linear-gradient(135deg,#f2f4f7,#e8ebf1); color:var(--muted); font-size:13px; font-weight:600}
+  .platform-badge{position:absolute; left:10px; top:10px; padding:4px 9px; border-radius:999px; font-size:11.5px; font-weight:700; letter-spacing:-.01em; color:#fff}
+  .badge-toss{background:var(--toss)}
+  .badge-coupang{background:var(--coupang)}
+  .rate-badge{position:absolute; right:10px; top:10px; background:#fff; color:var(--coupang); border-radius:8px; padding:3px 7px; font-size:12.5px; font-weight:800; box-shadow:0 1px 6px rgba(0,0,0,.12)}
+
+  .card-body{padding:13px 14px 15px; display:flex; flex-direction:column; gap:7px; flex:1}
+  .category-chip{align-self:flex-start; font-size:11px; font-weight:600; color:var(--muted); background:var(--soft); border-radius:6px; padding:2px 7px}
+  .card-title{margin:0; font-size:14.5px; line-height:1.4; font-weight:600; letter-spacing:-.02em; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; min-height:2.8em}
+  .card-memo{margin:0; font-size:12px; color:var(--muted); display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden}
+  .price{margin:2px 0 0; display:flex; align-items:baseline; gap:6px; flex-wrap:wrap}
+  .price-now{font-size:18px; font-weight:800; letter-spacing:-.03em}
+  .price-was{font-size:12px; color:var(--muted); text-decoration:line-through}
+  .card-meta{margin:0; font-size:11.5px; color:var(--muted)}
+  .cta{margin-top:auto; display:inline-flex; align-items:center; justify-content:center; gap:5px; border:1px solid var(--line); border-radius:10px; padding:9px 10px; font-size:13px; font-weight:700; background:#fff; transition:.15s}
+  .cta:hover{background:var(--ink); border-color:var(--ink); color:#fff}
+
+  .empty{display:none; padding:56px 0 64px; text-align:center; color:var(--muted); font-size:14px}
+  .empty.is-visible{display:block}
+
+  /* ── footer ── */
+  .site-footer{margin-top:34px; border-top:1px solid var(--line); background:var(--soft); padding:26px 0 34px}
+  .site-footer .wrap{display:grid; gap:10px}
+  .disclosure{margin:0; font-size:12.5px; line-height:1.7; color:var(--body)}
+  .disclosure strong{color:var(--ink)}
+  .footer-meta{margin:0; font-size:12px; color:var(--muted)}
+  .footer-links{display:flex; flex-wrap:wrap; gap:14px; font-size:12.5px; color:var(--body)}
+  .footer-links a{text-decoration:underline; text-underline-offset:3px; text-decoration-color:#c8cdd6}
+
+  .sr-only{position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0}
+
+  @media (max-width:720px){
+    .topbar .wrap{height:58px}
+    .brand{font-size:17px}
+    .hero{padding:26px 0 16px}
+    .hero h1{font-size:23px}
+    .hero p{font-size:13.5px}
+    .wrap{padding:0 16px}
+    .grid{grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px}
+    .card-body{padding:11px 11px 12px; gap:6px}
+    .card-title{font-size:13.5px}
+    .price-now{font-size:16px}
+    .cta{padding:8px; font-size:12.5px}
+    .platform-badge{left:8px; top:8px; padding:3px 8px; font-size:11px}
+    .rate-badge{right:8px; top:8px; font-size:11.5px}
+    .filters{padding:10px 0 12px}
+  }
+  @media (max-width:360px){
+    .grid{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">H</span>{{SITE_NAME}}</a>
+    <span class="live"><span class="dot" aria-hidden="true"></span><time datetime="{{UPDATED_AT_ISO}}">{{UPDATED_AT_SHORT}} 기준</time></span>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero wrap">
+    <h1>오늘 살 만한 것만,<br><em>한 화면에 모았습니다.</em></h1>
+    <p>토스 쇼핑 실시간 특가와 쿠팡 핫딜을 직접 확인해 골랐습니다. 가격은 각 쇼핑몰에서 다시 한 번 확인해 주세요.</p>
+    <div class="hero-stats">
+      <span class="stat">전체 <b>{{TOTAL}}개</b></span>
+      <span class="stat">토스딜 <b>{{TOSS_COUNT}}</b></span>
+      <span class="stat">쿠팡딜 <b>{{COUPANG_COUNT}}</b></span>
+      <span class="stat">업데이트 <b>{{UPDATED_AT_SHORT}}</b></span>
+    </div>
+  </section>
+
+  <section class="filters" aria-label="상품 필터">
+    <div class="wrap">
+      <div class="filter-row">
+        <div class="segment" role="group" aria-label="플랫폼">
+          <button class="is-active" data-filter-platform="all" aria-pressed="true">전체</button>
+          <button data-filter-platform="toss" aria-pressed="false">토스딜</button>
+          <button data-filter-platform="coupang" aria-pressed="false">쿠팡딜</button>
+        </div>
+      </div>
+      <div class="filter-row chips" role="group" aria-label="카테고리">
+{{CATEGORY_CHIPS}}
+      </div>
+    </div>
+  </section>
+
+  <section class="results wrap" aria-live="polite">
+    <div class="results-head">
+      <h2 id="results-title">전체 상품</h2>
+      <span id="results-count">{{TOTAL}}개 · {{UPDATED_AT_SHORT}} 갱신</span>
+    </div>
+    <ul class="grid" id="deal-grid">
+{{CARDS}}
+    </ul>
+    <p class="empty" id="empty-state">조건에 맞는 상품이 없습니다. 다른 필터를 선택해 보세요.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="disclosure">
+      <strong>대가성 문구 안내.</strong>
+      이 사이트는 <strong>쿠팡 파트너스</strong> 및 <strong>토스 쇼핑 파트너스</strong> 활동의 일환으로,
+      상품 링크를 통해 구매가 이루어질 경우 이에 따른 일정액의 수수료를 제공받습니다.
+      상품 가격·재고·배송 조건은 실시간으로 변동될 수 있으며, 결제 시점의 최종 금액과 조건은 각 쇼핑몰에서 확인해 주세요.
+      표시 가격은 {{UPDATED_AT_LABEL}} 기준 확인값입니다.
+    </p>
+    <div class="footer-links">
+      <a href="https://www.coupang.com" target="_blank" rel="noopener">쿠팡</a>
+      <a href="https://toss.shopping" target="_blank" rel="noopener">토스쇼핑</a>
+      <a href="https://partners.coupang.com" target="_blank" rel="noopener">쿠팡 파트너스</a>
+      <a href="./sitemap.xml">사이트맵</a>
+    </div>
+    <p class="footer-meta">© 2026 {{SITE_NAME}} · 개인이 운영하는 핫딜 큐레이션 테스트 페이지입니다. 상품 판매·배송·환불의 책임은 각 판매자에게 있습니다.</p>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{{JSONLD}}
+</script>
+<script>
+(function () {
+  var state = { platform: 'all', category: '전체' };
+  var cards = Array.prototype.slice.call(document.querySelectorAll('#deal-grid .card'));
+  var segButtons = Array.prototype.slice.call(document.querySelectorAll('[data-filter-platform]'));
+  var chipButtons = Array.prototype.slice.call(document.querySelectorAll('[data-filter-category]'));
+  var title = document.getElementById('results-title');
+  var count = document.getElementById('results-count');
+  var empty = document.getElementById('empty-state');
+  var total = cards.length;
+  var labels = { all: '전체 상품', toss: '토스딜', coupang: '쿠팡딜' };
+
+  function apply() {
+    var shown = 0;
+    cards.forEach(function (card) {
+      var okPlatform = state.platform === 'all' || card.dataset.platform === state.platform;
+      var okCategory = state.category === '전체' || card.dataset.category === state.category;
+      var visible = okPlatform && okCategory;
+      card.hidden = !visible;
+      if (visible) shown++;
+    });
+    title.textContent = (state.category === '전체' ? labels[state.platform] : state.category + ' · ' + labels[state.platform]);
+    count.textContent = shown + '개 표시 / 전체 ' + total + '개';
+    empty.classList.toggle('is-visible', shown === 0);
+    segButtons.forEach(function (b) {
+      var on = b.dataset.filterPlatform === state.platform;
+      b.classList.toggle('is-active', on);
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+    chipButtons.forEach(function (b) {
+      var on = b.dataset.filterCategory === state.category;
+      b.classList.toggle('is-active', on);
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+  }
+
+  segButtons.forEach(function (b) {
+    b.addEventListener('click', function () { state.platform = b.dataset.filterPlatform; apply(); });
+  });
+  chipButtons.forEach(function (b) {
+    b.addEventListener('click', function () { state.category = b.dataset.filterCategory; apply(); });
+  });
+  apply();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+{
+  "site": "핫딜픽",
+  "site_url": "https://iamnamju99.github.io/hotdeal-site/",
+  "updated_at": "2026-11-19T17:21:00+09:00",
+  "count": 11,
+  "deals": [
+    {
+      "id": "toss-1-1TGiaxv8",
+      "platform": "toss",
+      "title": "허만두 잎새만두, 알찬고기 1.4kg 1봉 + 알찬김치 1.4kg 1봉, 1세트",
+      "price": 11400,
+      "original_price": null,
+      "image": "assets/toss-1.jpg",
+      "affiliate_url": "https://toss.shopping/_m/1TGiaxv8",
+      "category": "식품",
+      "updated_at": "2026-11-19T16:53:09.350000+09:00",
+      "memo": "선착순특가"
+    },
+    {
+      "id": "toss-2-1rePuDRl",
+      "platform": "toss",
+      "title": "맛꾼 구운란, 대란, 30구, 1개",
+      "price": 8200,
+      "original_price": null,
+      "image": "assets/toss-2.jpg",
+      "affiliate_url": "https://toss.shopping/_m/1rePuDRl",
+      "category": "식품",
+      "updated_at": "2026-11-19T16:53:09.350000+09:00",
+      "memo": "선착순특가"
+    },
+    {
+      "id": "toss-3-L6ZPkm8y",
+      "platform": "toss",
+      "title": "깔끔 화장품 정리대, 화이트, 25x16x11cm, 1개",
+      "price": 4890,
+      "original_price": null,
+      "image": "assets/toss-3.jpg",
+      "affiliate_url": "https://toss.shopping/_m/L6ZPkm8y",
+      "category": "주방",
+      "updated_at": "2026-11-19T16:53:09.350000+09:00",
+      "memo": "선착순특가"
+    },
+    {
+      "id": "toss-4-tD3tj094",
+      "platform": "toss",
+      "title": "대식가 일키로 부대찌개, 1kg, 2팩",
+      "price": 11900,
+      "original_price": null,
+      "image": "assets/toss-4.jpg",
+      "affiliate_url": "https://toss.shopping/_m/tD3tj094",
+      "category": "식품",
+      "updated_at": "2026-11-19T16:53:09.350000+09:00",
+      "memo": "선착순특가"
+    },
+    {
+      "id": "toss-5-b9n4Flxq",
+      "platform": "toss",
+      "title": "볶음 참깨, 1kg, 1개",
+      "price": 7800,
+      "original_price": null,
+      "image": "assets/toss-5.jpg",
+      "affiliate_url": "https://toss.shopping/_m/b9n4Flxq",
+      "category": "식품",
+      "updated_at": "2026-11-19T16:53:09.350000+09:00",
+      "memo": "선착순특가"
+    },
+    {
+      "id": "coupang-9006482879",
+      "platform": "coupang",
+      "title": "홈리아 셀프 스탠딩 무선 청소기 HA-93BW + 충전 거치대",
+      "price": 74560,
+      "original_price": 179800,
+      "image": "assets/coupang-5.jpg",
+      "affiliate_url": "https://link.coupang.com/a/iKHpLbG5Rc",
+      "category": "가전",
+      "updated_at": "2026-11-19T17:21:00+09:00",
+      "memo": "와우쿠폰 적용가 기준"
+    },
+    {
+      "id": "coupang-9670451408",
+      "platform": "coupang",
+      "title": "코멧 포켓용 핫팩 100g 15개",
+      "price": 5190,
+      "original_price": 8600,
+      "image": "assets/coupang-4.jpg",
+      "affiliate_url": "https://link.coupang.com/a/iLKwAq3G5R",
+      "category": "생활",
+      "updated_at": "2026-11-19T17:21:00+09:00",
+      "memo": "개당 346원 · 한 달 3,000명 이상 구매"
+    },
+    {
+      "id": "coupang-9648481931",
+      "platform": "coupang",
+      "title": "PYHO 무선 스마트 현관 도어벨 홈캠 ML-002",
+      "price": 49000,
+      "original_price": 70000,
+      "image": "assets/coupang-3.jpg",
+      "affiliate_url": "https://link.coupang.com/a/iMmkV36Nzw",
+      "category": "생활",
+      "updated_at": "2026-11-19T17:21:00+09:00",
+      "memo": "모션감지·음성변조·스마트폰 연동"
+    },
+    {
+      "id": "coupang-7583865134",
+      "platform": "coupang",
+      "title": "해남 땅끝산들 절임배추 20kg",
+      "price": 36900,
+      "original_price": 51600,
+      "image": "assets/coupang-1.jpg",
+      "affiliate_url": "https://link.coupang.com/a/iNoPLsE5rU",
+      "category": "식품",
+      "updated_at": "2026-11-19T17:21:00+09:00",
+      "memo": "김장 시즌 · 로켓프레시 28% 할인"
+    },
+    {
+      "id": "coupang-9136176625",
+      "platform": "coupang",
+      "title": "신일 가열식 가습기 2.3L",
+      "price": 70120,
+      "original_price": 89000,
+      "image": "assets/coupang-6.jpg",
+      "affiliate_url": "https://link.coupang.com/a/iI2Ape1Pm8",
+      "category": "가전",
+      "updated_at": "2026-11-19T17:21:00+09:00",
+      "memo": "가열식 500W · 무료배송"
+    },
+    {
+      "id": "coupang-107647",
+      "platform": "coupang",
+      "title": "락앤락 직사각 김치통 투핸들 16L 2개",
+      "price": 29900,
+      "original_price": null,
+      "image": "assets/coupang-2.jpg",
+      "affiliate_url": "https://link.coupang.com/a/iNoSydhkui",
+      "category": "주방",
+      "updated_at": "2026-11-19T17:21:00+09:00",
+      "memo": "16L 2개 세트 · 1개당 14,950원"
+    }
+  ]
+}

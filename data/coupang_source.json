@@ -1,0 +1,78 @@
+{
+  "note": "쿠팡 파트너스(AF9163298) 발급 링크 · 가격/이미지는 2026-11-19 17:2x 상품 페이지 기준 확인값. sync_from_toss.py가 toss_automation/hotdeals.json과 합쳐 deals.json을 만든다.",
+  "checked_at": "2026-11-19T17:21:00+09:00",
+  "items": [
+    {
+      "id": "coupang-7583865134",
+      "product_id": "7583865134",
+      "title": "해남 땅끝산들 절임배추 20kg",
+      "price": 36900,
+      "original_price": 51600,
+      "category": "식품",
+      "affiliate_url": "https://link.coupang.com/a/iNoPLsE5rU",
+      "image_url": "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/rs_quotation_api/xsxqjtyj/4a0060ed59714c73ae8a421011221646.jpg",
+      "image_file": "coupang-1.jpg",
+      "memo": "김장 시즌 · 로켓프레시 28% 할인"
+    },
+    {
+      "id": "coupang-107647",
+      "product_id": "107647",
+      "title": "락앤락 직사각 김치통 투핸들 16L 2개",
+      "price": 29900,
+      "original_price": null,
+      "category": "주방",
+      "affiliate_url": "https://link.coupang.com/a/iNoSydhkui",
+      "image_url": "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/4526/e31beacacfa2003b41238b81049a106aa33cdacb550967e99046e44edafa.jpg",
+      "image_file": "coupang-2.jpg",
+      "memo": "16L 2개 세트 · 1개당 14,950원"
+    },
+    {
+      "id": "coupang-9648481931",
+      "product_id": "9648481931",
+      "title": "PYHO 무선 스마트 현관 도어벨 홈캠 ML-002",
+      "price": 49000,
+      "original_price": 70000,
+      "category": "생활",
+      "affiliate_url": "https://link.coupang.com/a/iMmkV36Nzw",
+      "image_url": "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/d938/2d695216c30b5ebf0964c6d3b2f3626a7359d0f0d806cb2a352e025e346b.png",
+      "image_file": "coupang-3.jpg",
+      "memo": "모션감지·음성변조·스마트폰 연동"
+    },
+    {
+      "id": "coupang-9670451408",
+      "product_id": "9670451408",
+      "title": "코멧 포켓용 핫팩 100g 15개",
+      "price": 5190,
+      "original_price": 8600,
+      "category": "생활",
+      "affiliate_url": "https://link.coupang.com/a/iLKwAq3G5R",
+      "image_url": "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/54785784308352-f718d3f0-0f32-43bf-9879-7217654fdc18.jpg",
+      "image_file": "coupang-4.jpg",
+      "memo": "개당 346원 · 한 달 3,000명 이상 구매"
+    },
+    {
+      "id": "coupang-9006482879",
+      "product_id": "9006482879",
+      "title": "홈리아 셀프 스탠딩 무선 청소기 HA-93BW + 충전 거치대",
+      "price": 74560,
+      "original_price": 179800,
+      "category": "가전",
+      "affiliate_url": "https://link.coupang.com/a/iKHpLbG5Rc",
+      "image_url": "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/50361902291787-b853b3bd-d459-4a28-9d35-68d1967f7977.jpg",
+      "image_file": "coupang-5.jpg",
+      "memo": "와우쿠폰 적용가 기준"
+    },
+    {
+      "id": "coupang-9136176625",
+      "product_id": "9136176625",
+      "title": "신일 가열식 가습기 2.3L",
+      "price": 70120,
+      "original_price": 89000,
+      "category": "가전",
+      "affiliate_url": "https://link.coupang.com/a/iI2Ape1Pm8",
+      "image_url": "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/38916992553881-5f5ca92f-2cd7-45db-912c-768a98cc3f72.jpg",
+      "image_file": "coupang-6.jpg",
+      "memo": "가열식 500W · 무료배송"
+    }
+  ]
+}

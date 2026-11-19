@@ -53,7 +53,7 @@
   .stat b{font-weight:700; color:var(--ink)}
 
   /* ── filters ── */
-  .filters{position:sticky; top:0; z-index:20; background:rgba(255,255,255,.96); backdrop-filter:saturate(150%) blur(8px); border-bottom:1px solid var(--line); padding:12px 0 14px}
+  .filters{position:sticky; top:0; z-index:20; background:#fff; border-bottom:1px solid var(--line); box-shadow:0 6px 12px -10px rgba(22,24,29,.22); padding:12px 0 14px}
   .filter-row{display:flex; align-items:center; gap:10px; overflow-x:auto; scrollbar-width:none; padding-bottom:2px}
   .filter-row::-webkit-scrollbar{display:none}
   .filters .wrap{display:grid; gap:10px}

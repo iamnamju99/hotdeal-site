@@ -2,5 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /scripts/
 Disallow: /templates/
+Disallow: /preview/
 
 Sitemap: https://iamnamju99.github.io/hotdeal-site/sitemap.xml

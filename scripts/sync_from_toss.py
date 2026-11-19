@@ -329,6 +329,7 @@ def write_sitemap(updated_at: datetime) -> None:
 Allow: /
 Disallow: /scripts/
 Disallow: /templates/
+Disallow: /preview/
 
 Sitemap: {SITE_URL}sitemap.xml
 """

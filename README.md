@@ -26,6 +26,7 @@ hotdeal_site/
 ├─ templates/
 │  └─ index.html.template     # index.html 원본 템플릿
 ├─ sitemap.xml · robots.txt   # 검색엔진용 (스크립트가 자동 갱신)
+├─ preview/mobile.html        # 개발용 모바일(390px) 확인 하네스 — noindex, 검색 비노출
 └─ .nojekyll                  # GitHub Pages에서 Jekyll 처리 생략
 ```
 

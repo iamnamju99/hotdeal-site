@@ -1,7 +1,7 @@
 {
   "site": "핫딜픽",
   "site_url": "https://iamnamju99.github.io/hotdeal-site/",
-  "updated_at": "2026-11-19T19:05:12.964000+09:00",
+  "updated_at": "2026-11-19T20:50:49.225000+09:00",
   "count": 11,
   "deals": [
     {
@@ -13,8 +13,8 @@
       "image": "assets/toss-1.jpg",
       "affiliate_url": "https://toss.shopping/_m/1TGiaxv8",
       "category": "식품",
-      "updated_at": "2026-11-19T19:05:12.964000+09:00",
-      "memo": "손만두 1위 · 리뷰 5,865 · 평점 4.4"
+      "updated_at": "2026-11-19T20:50:49.225000+09:00",
+      "memo": "손만두 1위 · 리뷰 5,880 · 평점 4.4"
     },
     {
       "id": "toss-2-1rePuDRl",
@@ -25,8 +25,8 @@
       "image": "assets/toss-2.jpg",
       "affiliate_url": "https://toss.shopping/_m/1rePuDRl",
       "category": "식품",
-      "updated_at": "2026-11-19T19:05:12.964000+09:00",
-      "memo": "구운계란·훈제란 1위 · 리뷰 16,105 · 평점 4.6"
+      "updated_at": "2026-11-19T20:50:49.225000+09:00",
+      "memo": "구운계란·훈제란 1위 · 리뷰 16,152 · 평점 4.6"
     },
     {
       "id": "toss-3-L6ZPkm8y",
@@ -37,8 +37,8 @@
       "image": "assets/toss-3.jpg",
       "affiliate_url": "https://toss.shopping/_m/L6ZPkm8y",
       "category": "주방",
-      "updated_at": "2026-11-19T19:05:12.964000+09:00",
-      "memo": "화장품정리대 1위 · 리뷰 5,283 · 평점 4.2"
+      "updated_at": "2026-11-19T20:50:49.225000+09:00",
+      "memo": "화장품정리대 1위 · 리뷰 5,288 · 평점 4.2"
     },
     {
       "id": "toss-4-tD3tj094",
@@ -49,8 +49,8 @@
       "image": "assets/toss-4.jpg",
       "affiliate_url": "https://toss.shopping/_m/tD3tj094",
       "category": "식품",
-      "updated_at": "2026-11-19T19:05:12.964000+09:00",
-      "memo": "리뷰 493 · 평점 4.6 · 내일 도착 예정"
+      "updated_at": "2026-11-19T20:50:49.225000+09:00",
+      "memo": "리뷰 494 · 평점 4.6 · 내일 도착 예정"
     },
     {
       "id": "toss-5-b9n4Flxq",
@@ -61,7 +61,7 @@
       "image": "assets/toss-5.jpg",
       "affiliate_url": "https://toss.shopping/_m/b9n4Flxq",
       "category": "식품",
-      "updated_at": "2026-11-19T19:05:12.964000+09:00",
+      "updated_at": "2026-11-19T20:50:49.225000+09:00",
       "memo": "참깨 2위 · 리뷰 247 · 평점 4.5"
     },
     {

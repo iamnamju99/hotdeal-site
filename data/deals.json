@@ -1,7 +1,7 @@
 {
   "site": "핫딜픽",
   "site_url": "https://iamnamju99.github.io/hotdeal-site/",
-  "updated_at": "2026-11-21T12:52:40.411000+09:00",
+  "updated_at": "2026-11-21T14:51:54.237000+09:00",
   "count": 11,
   "deals": [
     {
@@ -13,32 +13,32 @@
       "image": "assets/toss-1.jpg",
       "affiliate_url": "https://toss.shopping/_m/hNTCk1Sc",
       "category": "기타",
-      "updated_at": "2026-11-21T12:52:40.411000+09:00",
+      "updated_at": "2026-11-21T14:51:54.237000+09:00",
       "memo": "정육 1위 · 리뷰 5,550 · 평점 4.3"
     },
     {
-      "id": "toss-2-NkYCssCA",
-      "platform": "toss",
-      "title": "소소락 순살 닭강정, 양념 500g 1개 + 마늘간장 500g 1개, 1세트",
-      "price": 10590,
-      "original_price": null,
-      "image": "assets/toss-2.jpg",
-      "affiliate_url": "https://toss.shopping/_m/NkYCssCA",
-      "category": "기타",
-      "updated_at": "2026-11-21T12:52:40.411000+09:00",
-      "memo": "리뷰 31 · 평점 4.9 · 내일 도착 예정"
-    },
-    {
-      "id": "toss-3-fB6ekdCp",
+      "id": "toss-2-fB6ekdCp",
       "platform": "toss",
       "title": "배스킨라빈스 메롱멜론 우유 190ml, 24개",
       "price": 8250,
       "original_price": null,
-      "image": "assets/toss-3.jpg",
+      "image": "assets/toss-2.jpg",
       "affiliate_url": "https://toss.shopping/_m/fB6ekdCp",
       "category": "기타",
-      "updated_at": "2026-11-21T12:52:40.411000+09:00",
-      "memo": "딸기·초코·커피·바나나우유 3위 · 리뷰 4,164 · 평점 4.7"
+      "updated_at": "2026-11-21T14:51:54.237000+09:00",
+      "memo": "딸기·초코·커피·바나나우유 3위 · 리뷰 4,165 · 평점 4.7"
+    },
+    {
+      "id": "toss-3-NkYCssCA",
+      "platform": "toss",
+      "title": "소소락 순살 닭강정, 양념 500g 1개 + 마늘간장 500g 1개, 1세트",
+      "price": 10590,
+      "original_price": null,
+      "image": "assets/toss-3.jpg",
+      "affiliate_url": "https://toss.shopping/_m/NkYCssCA",
+      "category": "기타",
+      "updated_at": "2026-11-21T14:51:54.237000+09:00",
+      "memo": "리뷰 31 · 평점 4.9 · 내일 도착 예정"
     },
     {
       "id": "toss-4-n1ywri2d",
@@ -49,8 +49,8 @@
       "image": "assets/toss-4.jpg",
       "affiliate_url": "https://toss.shopping/_m/n1ywri2d",
       "category": "기타",
-      "updated_at": "2026-11-21T12:52:40.411000+09:00",
-      "memo": "곰팡이세정제 1위 · 리뷰 5,252 · 평점 4.6"
+      "updated_at": "2026-11-21T14:51:54.237000+09:00",
+      "memo": "곰팡이세정제 1위 · 리뷰 5,255 · 평점 4.6"
     },
     {
       "id": "toss-5-vHzYp25e",
@@ -61,7 +61,7 @@
       "image": "assets/toss-5.jpg",
       "affiliate_url": "https://toss.shopping/_m/vHzYp25e",
       "category": "기타",
-      "updated_at": "2026-11-21T12:52:40.411000+09:00",
+      "updated_at": "2026-11-21T14:51:54.237000+09:00",
       "memo": "리뷰 20 · 평점 4.7"
     },
     {

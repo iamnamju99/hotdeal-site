@@ -1,7 +1,7 @@
 {
   "site": "핫딜픽",
   "site_url": "https://iamnamju99.github.io/hotdeal-site/",
-  "updated_at": "2026-11-21T08:55:16.393000+09:00",
+  "updated_at": "2026-11-21T10:52:59.513000+09:00",
   "count": 11,
   "deals": [
     {
@@ -13,8 +13,8 @@
       "image": "assets/toss-1.jpg",
       "affiliate_url": "https://toss.shopping/_m/hNTCk1Sc",
       "category": "기타",
-      "updated_at": "2026-11-21T08:55:16.393000+09:00",
-      "memo": "리뷰 5,550 · 평점 4.3 · 내일 도착 예정"
+      "updated_at": "2026-11-21T10:52:59.513000+09:00",
+      "memo": "정육 1위 · 리뷰 5,550 · 평점 4.3"
     },
     {
       "id": "toss-2-NkYCssCA",
@@ -25,7 +25,7 @@
       "image": "assets/toss-2.jpg",
       "affiliate_url": "https://toss.shopping/_m/NkYCssCA",
       "category": "기타",
-      "updated_at": "2026-11-21T08:55:16.393000+09:00",
+      "updated_at": "2026-11-21T10:52:59.513000+09:00",
       "memo": "리뷰 31 · 평점 4.9 · 내일 도착 예정"
     },
     {
@@ -37,32 +37,32 @@
       "image": "assets/toss-3.jpg",
       "affiliate_url": "https://toss.shopping/_m/fB6ekdCp",
       "category": "기타",
-      "updated_at": "2026-11-21T08:55:16.393000+09:00",
-      "memo": "딸기·초코·커피·바나나우유 3위 · 리뷰 4,162 · 평점 4.7"
+      "updated_at": "2026-11-21T10:52:59.513000+09:00",
+      "memo": "딸기·초코·커피·바나나우유 3위 · 리뷰 4,164 · 평점 4.7"
     },
     {
-      "id": "toss-4-Dk6wA4N6",
-      "platform": "toss",
-      "title": "배스킨라빈스 멸균우유, 쿠키앤크림, 190ml, 24개",
-      "price": 9000,
-      "original_price": null,
-      "image": "assets/toss-4.jpg",
-      "affiliate_url": "https://toss.shopping/_m/Dk6wA4N6",
-      "category": "기타",
-      "updated_at": "2026-11-21T08:55:16.393000+09:00",
-      "memo": "딸기·초코·커피·바나나우유 2위 · 리뷰 904 · 평점 4.8"
-    },
-    {
-      "id": "toss-5-n1ywri2d",
+      "id": "toss-4-n1ywri2d",
       "platform": "toss",
       "title": "스페시핏 곰팡이 제거제, 500ml, 2개",
       "price": 7600,
       "original_price": null,
-      "image": "assets/toss-5.jpg",
+      "image": "assets/toss-4.jpg",
       "affiliate_url": "https://toss.shopping/_m/n1ywri2d",
       "category": "기타",
-      "updated_at": "2026-11-21T08:55:16.393000+09:00",
-      "memo": "곰팡이세정제 1위 · 리뷰 5,249 · 평점 4.6"
+      "updated_at": "2026-11-21T10:52:59.513000+09:00",
+      "memo": "곰팡이세정제 1위 · 리뷰 5,250 · 평점 4.6"
+    },
+    {
+      "id": "toss-5-ZCFX7hq1",
+      "platform": "toss",
+      "title": "포지타노 카스텔리모 레몬 캔디, 레몬맛, 30g, 8봉",
+      "price": 6915,
+      "original_price": null,
+      "image": "assets/toss-5.jpg",
+      "affiliate_url": "https://toss.shopping/_m/ZCFX7hq1",
+      "category": "기타",
+      "updated_at": "2026-11-21T10:52:59.513000+09:00",
+      "memo": "리뷰 289 · 평점 4.8 · 내일 도착 예정"
     },
     {
       "id": "coupang-9006482879",

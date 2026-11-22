@@ -1,20 +1,20 @@
 {
   "site": "핫딜픽",
   "site_url": "https://iamnamju99.github.io/hotdeal-site/",
-  "updated_at": "2026-11-22T08:54:47.484000+09:00",
+  "updated_at": "2026-11-22T10:52:28.331000+09:00",
   "count": 11,
   "deals": [
     {
-      "id": "toss-1-Zkho4iag",
+      "id": "toss-1-RjAyF4Vx",
       "platform": "toss",
-      "title": "오뚜기 진라면 순한맛, 120g, 5개입, 8개",
-      "price": 18900,
+      "title": "베라 4ZERO 팝업 뽑아쓰는 키친타올, 3겹, 100매, 9팩",
+      "price": 6200,
       "original_price": null,
       "image": "assets/toss-1.jpg",
-      "affiliate_url": "https://toss.shopping/_m/Zkho4iag",
+      "affiliate_url": "https://toss.shopping/_m/RjAyF4Vx",
       "category": "기타",
-      "updated_at": "2026-11-22T08:54:47.484000+09:00",
-      "memo": "리뷰 998 · 평점 4.8"
+      "updated_at": "2026-11-22T10:52:28.331000+09:00",
+      "memo": "각키친타올 2위 · 리뷰 665 · 평점 4.7"
     },
     {
       "id": "toss-2-tmAW0SF8",
@@ -25,8 +25,8 @@
       "image": "assets/toss-2.jpg",
       "affiliate_url": "https://toss.shopping/_m/tmAW0SF8",
       "category": "기타",
-      "updated_at": "2026-11-22T08:54:47.484000+09:00",
-      "memo": "리뷰 15,747 · 평점 4.8"
+      "updated_at": "2026-11-22T10:52:28.331000+09:00",
+      "memo": "리뷰 15,754 · 평점 4.8"
     },
     {
       "id": "toss-3-1UAfg6ni",
@@ -37,32 +37,32 @@
       "image": "assets/toss-3.jpg",
       "affiliate_url": "https://toss.shopping/_m/1UAfg6ni",
       "category": "기타",
-      "updated_at": "2026-11-22T08:54:47.484000+09:00",
-      "memo": "리뷰 5,881 · 평점 4.6 · 내일 도착 예정"
+      "updated_at": "2026-11-22T10:52:28.331000+09:00",
+      "memo": "리뷰 5,882 · 평점 4.6 · 내일 도착 예정"
     },
     {
-      "id": "toss-4-RjAyF4Vx",
-      "platform": "toss",
-      "title": "베라 4ZERO 팝업 뽑아쓰는 키친타올, 3겹, 100매, 9팩",
-      "price": 6200,
-      "original_price": null,
-      "image": "assets/toss-4.jpg",
-      "affiliate_url": "https://toss.shopping/_m/RjAyF4Vx",
-      "category": "기타",
-      "updated_at": "2026-11-22T08:54:47.484000+09:00",
-      "memo": "각키친타올 2위 · 리뷰 664 · 평점 4.7"
-    },
-    {
-      "id": "toss-5-rtpUGfPd",
+      "id": "toss-4-rtpUGfPd",
       "platform": "toss",
       "title": "이롬 황성주 과채습관, 퍼플, 140ml, 24개",
       "price": 8050,
       "original_price": null,
-      "image": "assets/toss-5.jpg",
+      "image": "assets/toss-4.jpg",
       "affiliate_url": "https://toss.shopping/_m/rtpUGfPd",
       "category": "기타",
-      "updated_at": "2026-11-22T08:54:47.484000+09:00",
-      "memo": "야채혼합주스 3위 · 리뷰 501 · 평점 4.7"
+      "updated_at": "2026-11-22T10:52:28.331000+09:00",
+      "memo": "야채혼합주스 3위 · 리뷰 502 · 평점 4.7"
+    },
+    {
+      "id": "toss-5-3rn3MVH2",
+      "platform": "toss",
+      "title": "앙쥬 마유코팅 핸드크림, 100ml, 10+1, 총 11개",
+      "price": 8420,
+      "original_price": null,
+      "image": "assets/toss-5.jpg",
+      "affiliate_url": "https://toss.shopping/_m/3rn3MVH2",
+      "category": "기타",
+      "updated_at": "2026-11-22T10:52:28.331000+09:00",
+      "memo": "핸드크림 3위 · 리뷰 401 · 평점 4.6"
     },
     {
       "id": "coupang-9006482879",

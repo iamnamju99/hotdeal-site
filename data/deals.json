@@ -1,7 +1,7 @@
 {
   "site": "핫딜픽",
   "site_url": "https://iamnamju99.github.io/hotdeal-site/",
-  "updated_at": "2026-11-22T12:51:26.398000+09:00",
+  "updated_at": "2026-11-22T14:51:27.440000+09:00",
   "count": 11,
   "deals": [
     {
@@ -13,32 +13,32 @@
       "image": "assets/toss-1.jpg",
       "affiliate_url": "https://toss.shopping/_m/Zkho4iag",
       "category": "기타",
-      "updated_at": "2026-11-22T12:51:26.398000+09:00",
+      "updated_at": "2026-11-22T14:51:27.440000+09:00",
       "memo": "리뷰 999 · 평점 4.8"
     },
     {
-      "id": "toss-2-RjAyF4Vx",
-      "platform": "toss",
-      "title": "베라 4ZERO 팝업 뽑아쓰는 키친타올, 3겹, 100매, 9팩",
-      "price": 6200,
-      "original_price": null,
-      "image": "assets/toss-2.jpg",
-      "affiliate_url": "https://toss.shopping/_m/RjAyF4Vx",
-      "category": "기타",
-      "updated_at": "2026-11-22T12:51:26.398000+09:00",
-      "memo": "각키친타올 2위 · 리뷰 665 · 평점 4.7"
-    },
-    {
-      "id": "toss-3-tmAW0SF8",
+      "id": "toss-2-tmAW0SF8",
       "platform": "toss",
       "title": "스파클 생수, 무라벨, 2L, 30개",
       "price": 12380,
       "original_price": null,
-      "image": "assets/toss-3.jpg",
+      "image": "assets/toss-2.jpg",
       "affiliate_url": "https://toss.shopping/_m/tmAW0SF8",
       "category": "기타",
-      "updated_at": "2026-11-22T12:51:26.398000+09:00",
-      "memo": "리뷰 15,766 · 평점 4.8"
+      "updated_at": "2026-11-22T14:51:27.440000+09:00",
+      "memo": "리뷰 15,770 · 평점 4.8"
+    },
+    {
+      "id": "toss-3-RjAyF4Vx",
+      "platform": "toss",
+      "title": "베라 4ZERO 팝업 뽑아쓰는 키친타올, 3겹, 100매, 9팩",
+      "price": 6200,
+      "original_price": null,
+      "image": "assets/toss-3.jpg",
+      "affiliate_url": "https://toss.shopping/_m/RjAyF4Vx",
+      "category": "기타",
+      "updated_at": "2026-11-22T14:51:27.440000+09:00",
+      "memo": "각키친타올 2위 · 리뷰 667 · 평점 4.7"
     },
     {
       "id": "toss-4-1UAfg6ni",
@@ -49,8 +49,8 @@
       "image": "assets/toss-4.jpg",
       "affiliate_url": "https://toss.shopping/_m/1UAfg6ni",
       "category": "기타",
-      "updated_at": "2026-11-22T12:51:26.398000+09:00",
-      "memo": "리뷰 5,883 · 평점 4.6 · 내일 도착 예정"
+      "updated_at": "2026-11-22T14:51:27.440000+09:00",
+      "memo": "리뷰 5,884 · 평점 4.6 · 내일 도착 예정"
     },
     {
       "id": "toss-5-rtpUGfPd",
@@ -61,8 +61,8 @@
       "image": "assets/toss-5.jpg",
       "affiliate_url": "https://toss.shopping/_m/rtpUGfPd",
       "category": "기타",
-      "updated_at": "2026-11-22T12:51:26.398000+09:00",
-      "memo": "야채혼합주스 3위 · 리뷰 505 · 평점 4.7"
+      "updated_at": "2026-11-22T14:51:27.440000+09:00",
+      "memo": "야채혼합주스 3위 · 리뷰 507 · 평점 4.7"
     },
     {
       "id": "coupang-9006482879",

@@ -1,7 +1,7 @@
 {
   "site": "핫딜픽",
   "site_url": "https://iamnamju99.github.io/hotdeal-site/",
-  "updated_at": "2026-11-24T18:53:52.441000+09:00",
+  "updated_at": "2026-11-24T18:55:45.633000+09:00",
   "count": 11,
   "deals": [
     {
@@ -13,7 +13,7 @@
       "image": "assets/toss-1.jpg",
       "affiliate_url": "https://toss.shopping/_m/BAwfoCc5",
       "category": "기타",
-      "updated_at": "2026-11-24T18:53:52.441000+09:00",
+      "updated_at": "2026-11-24T18:55:45.633000+09:00",
       "memo": "멸균 저지방우유 2위 · 리뷰 216 · 평점 4.7"
     },
     {
@@ -25,7 +25,7 @@
       "image": "assets/toss-2.jpg",
       "affiliate_url": "https://toss.shopping/_m/D5VU9xM3",
       "category": "기타",
-      "updated_at": "2026-11-24T18:53:52.441000+09:00",
+      "updated_at": "2026-11-24T18:55:45.633000+09:00",
       "memo": "리뷰 199 · 평점 4.8"
     },
     {
@@ -37,19 +37,19 @@
       "image": "assets/toss-3.jpg",
       "affiliate_url": "https://toss.shopping/_m/DqqOjMib",
       "category": "기타",
-      "updated_at": "2026-11-24T18:53:52.441000+09:00",
+      "updated_at": "2026-11-24T18:55:45.633000+09:00",
       "memo": "리뷰 2,478 · 평점 4.4 · 내일 도착 예정"
     },
     {
       "id": "toss-4-ZQGM36Mq",
       "platform": "toss",
-      "title": "레이데이 마데카 재생크림, 40ml, 3개",
+      "title": "마데카 재생크림, 40ml, 3개",
       "price": 8150,
       "original_price": null,
       "image": "assets/toss-4.jpg",
       "affiliate_url": "https://toss.shopping/_m/ZQGM36Mq",
       "category": "기타",
-      "updated_at": "2026-11-24T18:53:52.441000+09:00",
+      "updated_at": "2026-11-24T18:55:45.633000+09:00",
       "memo": "아이크림 1위 · 리뷰 4,402 · 평점 4.4"
     },
     {
@@ -61,7 +61,7 @@
       "image": "assets/toss-5.jpg",
       "affiliate_url": "https://toss.shopping/_m/1TMRTFdD",
       "category": "기타",
-      "updated_at": "2026-11-24T18:53:52.441000+09:00",
+      "updated_at": "2026-11-24T18:55:45.633000+09:00",
       "memo": "괄사용품 1위 · 리뷰 5,141 · 평점 4.6"
     },
     {

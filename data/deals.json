@@ -1,20 +1,20 @@
 {
   "site": "핫딜픽",
   "site_url": "https://iamnamju99.github.io/hotdeal-site/",
-  "updated_at": "2026-11-25T12:52:26.200000+09:00",
+  "updated_at": "2026-11-25T12:56:30.299000+09:00",
   "count": 11,
   "deals": [
     {
-      "id": "toss-1-77jfzoNc",
+      "id": "toss-1-jWooM6bo",
       "platform": "toss",
-      "title": "듀록 돼지 벌집삼겹살, 1kg, 3개",
-      "price": 29610,
+      "title": "햄폭탄 부대찌개, 500g, 5개",
+      "price": 18230,
       "original_price": null,
       "image": "assets/toss-1.jpg",
-      "affiliate_url": "https://toss.shopping/_m/77jfzoNc",
-      "category": "기타",
-      "updated_at": "2026-11-25T12:52:26.200000+09:00",
-      "memo": "리뷰 157 · 평점 4.5 · 모레 도착 예정"
+      "affiliate_url": "https://toss.shopping/_m/jWooM6bo",
+      "category": "식품",
+      "updated_at": "2026-11-25T12:56:30.299000+09:00",
+      "memo": "리뷰 122 · 평점 4.3 · 내일 도착 예정"
     },
     {
       "id": "toss-2-vev88CY2",
@@ -25,20 +25,20 @@
       "image": "assets/toss-2.jpg",
       "affiliate_url": "https://toss.shopping/_m/vev88CY2",
       "category": "기타",
-      "updated_at": "2026-11-25T12:52:26.200000+09:00",
+      "updated_at": "2026-11-25T12:56:30.299000+09:00",
       "memo": "치약 3위 · 리뷰 459 · 평점 4.7"
     },
     {
-      "id": "toss-3-nwjfzrjt",
+      "id": "toss-3-d8HilCYx",
       "platform": "toss",
-      "title": "슈퍼우먼 에너지바, 12개입, 3박스",
-      "price": 16300,
+      "title": "서귀포 감귤, 10kg",
+      "price": 11800,
       "original_price": null,
       "image": "assets/toss-3.jpg",
-      "affiliate_url": "https://toss.shopping/_m/nwjfzrjt",
+      "affiliate_url": "https://toss.shopping/_m/d8HilCYx",
       "category": "기타",
-      "updated_at": "2026-11-25T12:52:26.200000+09:00",
-      "memo": "초코바·스니커즈 1위 · 리뷰 2,771 · 평점 4.7"
+      "updated_at": "2026-11-25T12:56:30.299000+09:00",
+      "memo": "귤 2위 · 리뷰 519 · 평점 4.4"
     },
     {
       "id": "toss-4-dzZUZ8lq",
@@ -49,7 +49,7 @@
       "image": "assets/toss-4.jpg",
       "affiliate_url": "https://toss.shopping/_m/dzZUZ8lq",
       "category": "기타",
-      "updated_at": "2026-11-25T12:52:26.200000+09:00",
+      "updated_at": "2026-11-25T12:56:30.299000+09:00",
       "memo": "리뷰 355 · 평점 4.8"
     },
     {
@@ -61,7 +61,7 @@
       "image": "assets/toss-5.jpg",
       "affiliate_url": "https://toss.shopping/_m/BKSdwQpv",
       "category": "기타",
-      "updated_at": "2026-11-25T12:52:26.200000+09:00",
+      "updated_at": "2026-11-25T12:56:30.299000+09:00",
       "memo": "리뷰 1,145 · 평점 4.8 · 내일 도착 예정"
     },
     {

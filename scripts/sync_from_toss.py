@@ -70,7 +70,10 @@ def format_toss_memo(og_desc: str | None, title: str) -> str | None:
 
     parts: list[str] = []
     rank = re.search(r"([가-힣A-Za-z0-9·]+(?:\s[가-힣A-Za-z0-9·]+)?)\s*([123]위)", text)
-    if rank:
+    # 카테고리명에 효능·기능성 표현이 들어간 건기식 순위 문구는 광고 리스크가 있어 뺀다
+    FUNCTIONAL_WORDS = ("칼슘", "성장", "면역", "혈당", "인지", "다이어트", "장건강", "눈건강",
+                        "피부", "피로", "간건강", "관절", "프로바이오틱스", "유산균", "비타민")
+    if rank and not any(w in rank.group(1) for w in FUNCTIONAL_WORDS):
         parts.append(f"{rank.group(1)} {rank.group(2)}")
     reviews = re.search(r"리뷰\s*([\d,]+)\s*개", text)
     if reviews:
